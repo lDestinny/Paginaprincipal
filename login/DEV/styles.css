@@ -1,0 +1,147 @@
+.container {
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 1fr 100px;
+    grid-gap: .5rem;
+    grid-template-areas:
+        "header header header"
+        "content-1 content-1 content-1"
+        "sidebar content-2 content-3"
+        "footer footer footer";
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+   
+  }
+  
+  .content-1 {
+    grid-area: content-1;
+  }
+  
+  .content-2 {
+    grid-area: content-2;
+  }
+  
+  .content-3 {
+    grid-area: content-3;
+  }
+  
+  .footer {
+    grid-area: footer;
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+  }
+  
+  ul a {
+    flex: block;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+  }
+ .arriba
+ {
+   margin-right: 50px;
+   display: flex;
+   
+
+  
+ }
+  /* OTHER STYLES */
+  
+  body {
+    background-color: #0a0a0c;
+    display: flex;
+    justify-content: auto;
+    padding: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+  .item {
+    background: rgb(0,0,0,.75);
+    border-radius: 10px;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .logo {
+      margin-top: -10px;
+      width: 200px;
+      height: 100px;
+  }
+  
+  .content-0 {
+    display: flex;
+    display: inline-block;
+    background-image: linear-gradient(203deg, #000000 0%, #000000 90%)
+    
+  }
+  .content-0 img {
+     
+      height: 50%;
+      width:  100%;
+  }
+  
+  .content-1 img {
+      
+      height: 100%;
+      width: 100%;
+      
+      
+      
+  }
+  .content-2 {
+    display: flex;
+    display: inline-block;
+    background-image: linear-gradient(130deg, #000000 0%, #000000 85%, #000000 100%);
+  }
+  .content-2 img {
+    
+    height: 50%;
+    width:  100%;
+   
+  }
+  .content-3 {
+    display: flex;
+    display: inline-block;
+    background-image: linear-gradient(130deg, #000000 0%, #000000 85%, #000000 100%);
+  }
+  .content-3 img {
+    height: 50%;
+    width:  100%;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 20px 0px;
+    padding-left: 10px;
+    margin-top: 80px;
+    color: #757575;
+  }
+  .container ul {
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+.container ul li{
+    display: inline-block;
+    height: 10px;
+    margin: 10px 60px;
+    
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}

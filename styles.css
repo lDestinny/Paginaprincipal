@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+body {
+    background-image: url(fondo.jpg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.fondo {
+    
+    width: 300px;
+    height: 200px;
+        }
+
+header div img {
+width: 200px;
+height: 120px;
+margin-top: -15px;
+margin-left: 15px;
+            }
+
+.box {
+    margin-top: -15px;
+    width: 450px;
+    height: 515px;
+    background: rgb(0,0,0,.75);
+    color: white;
+    box-sizing: border-box;
+    padding: 50px 5px 100px;
+    border-radius: 9px;
+    
+}
+.box h1 {
+    margin-right: 120px;
+    margin-bottom: 25px;
+    display: block;
+    flex: 1 1 auto;
+}
+.box input[type=text],.box input[type=password]
+{
+    border-radius: 4px;
+    border: 0;
+    width: 70%;
+    line-height: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+
+}
+.box button
+{
+    border-radius: 4px;
+    border: 0;
+    width: 70%;
+    line-height: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+   
+}
+
+.box p {
+    color: gray;
+}
+.box a {
+    text-decoration: none;
+    color: gray;
+}
+.box a.sus {
+    color: white;
+}
+.recuerdame input{
+    
+text-align: left;
+margin-left: 5px;
+font-size: 20px;
+   
+}
+.label {
+    font-size: 14px;
+}
+.help 
+{
+text-align: right;
+margin-left: 95px;
+font-size: 13px;
+}
+.face {
+    width: 20px;
+    height: 20px;
+    margin-left: -20%;
+    margin-top: 10px;
+}
+.feis
+{
+    margin: none;
+    padding: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.era {
+margin-left: -20px;
+margin-top: 10px;
+}
+.texton 
+    {
+        margin-top: 15px;
+        width: 80%;
+        font-size: 13px;
+        
+    }
+.texton .para {
+    margin-left: -30px;
+}
+.texton a {
+    color: rgb(56, 125, 255);
+}
+
+.top {
+    padding: 0%;
+    margin: 0 0 30px;
+    padding-left: 50px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: rgba(0,0,0,.75);
+    padding: 20px 0px;
+    padding-left: 10px;
+    margin-top: 80px;
+    color: #757575;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+.container ul {
+    margin: 0%;
+    padding: 0%;
+    text-align: left;
+}
+.container ul li{
+    display: inline-block;
+    
+    height: 20px;
+    margin: 10px 60px;
+    
+}
+.footer a {
+    color: #757575;
+    text-decoration: none;
+}
